@@ -1,9 +1,11 @@
 import React, { useContext } from 'react'
 import { AppConfig } from '../../context/AppConfig'
 
-import { Legacy } from '../Legacy/Legacy'
+
+
 import { Members } from '../Members/Members'
 import Loader from '../Loader/Loader'
+
 export const Main = () => {
     const {loaded} = useContext(AppConfig)
   return (
@@ -11,11 +13,11 @@ export const Main = () => {
 
   
     
-      <div className='relative w-screen min-h-screen'>
+      <div className='w-screen min-h-screen'>
       
 
-      <div class={` absolute top-0 left-0 w-screen h-screen ${loaded?"block":"hidden"}   `}>
-      <Legacy/>
+      <div class={`w-screen h-screen ${loaded?"block":"hidden"}   `}>
+      
         <Members/>
       </div>
 
