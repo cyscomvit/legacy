@@ -1,5 +1,5 @@
 import React from 'react'
-import smoke from '../assets/Legacy/smoke.mp4'
+import smoke from '../../assets/Legacy/smoke.mp4'
 export const Legacy = () => {
   return (
  <div className='bg-black relative w-screen h-screen'>
