@@ -5,7 +5,7 @@
     font-family: "montserrat";
   }
   body{
-    background: #333;
+    background: black;
   }
   .middle{
     position: relative;
@@ -15,8 +15,7 @@
   }
   .card{
     cursor: pointer;
-    width: 340px;
-    height: 480px;
+    
   }
   .front,.back{
     width: 100%;
@@ -24,7 +23,7 @@
     overflow: hidden;
     backface-visibility: hidden;
     position: absolute;
-    transition: transform .6s linear;
+    transition: transform .3s linear;
   }
   .front img{
     height: 100%;

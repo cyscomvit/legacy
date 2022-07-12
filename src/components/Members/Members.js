@@ -3,7 +3,7 @@ import { MemberCard } from './MemberCard'
 import { data } from '../../assets/Members/MemberData'
 export const Members = () => {
   return (
-    <>
+    <div className='flex flex-row justify-center w-screen items-center  '>
     <div className='flex flex-row flex-wrap'>
     {
 data.map((item,k)=>(
@@ -16,6 +16,6 @@ data.map((item,k)=>(
     }
     </div>
   
-    </>
+    </div>
   )
 }
