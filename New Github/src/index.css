@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Fjalla+One&family=Kanit&family=Staatliches&display=swap');
+body {
+  margin: 0;
+  font-family: 'Staatliches', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
