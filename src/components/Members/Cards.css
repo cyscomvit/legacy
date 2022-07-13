@@ -41,7 +41,7 @@
     width: 100%;
   }
   .sm{
-    margin: 20px 20px;
+    /* margin: 20px 20px; */
     border: 1px solid #30AADD;
   }
   .sm a{

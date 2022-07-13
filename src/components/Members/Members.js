@@ -1,16 +1,16 @@
 import React from 'react'
 import { MemberCard } from './MemberCard'
 import { data } from '../../assets/Members/MemberData'
-import Landing from "../Landing"
+
 export const Members = () => {
   return (
     <>
-    <Landing/>
-    <div className='flex flex-row justify-center md:w-screen items-center  '>
-    <div className='flex flex-row flex-wrap justify-center'>
+   
+    <div className='flex flex-row justify-center md:w-screen items-center '>
+    <div className='flex flex-row flex-wrap justify-center m-0  '>
     {
 data.map((item,k)=>(
-    <div key ={k}>
+    <div key ={k} className="m-2" >
         <MemberCard name = {item.name} post = {item.post} git = {item.github} link = {item.linkedin} pic = {item.pic}/>
 
     </div>

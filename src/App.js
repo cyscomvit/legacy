@@ -6,9 +6,9 @@ import { AppConfig, AppProvider } from './context/AppConfig';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <AppProvider>
-      <Main/>
+      <Main />
       </AppProvider>
     </div>
   );

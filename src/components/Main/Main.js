@@ -5,6 +5,7 @@ import { AppConfig } from '../../context/AppConfig'
 
 import { Members } from '../Members/Members'
 import Loader from '../Loader/Loader'
+import Landing from '../Landing/Landing'
 
 export const Main = () => {
     const {loaded} = useContext(AppConfig)
@@ -13,11 +14,11 @@ export const Main = () => {
 
   
     
-      <div className='w-screen min-h-screen'>
+      <div className='w-screen min-h-screen '>
       
 
-      <div class={`w-screen h-screen ${loaded?"block":"hidden"}   `}>
-      
+      <div class={`max-w-96 h-screen ${loaded?"block":"hidden"}   `}>
+      <Landing/>
         <Members/>
       </div>
 
