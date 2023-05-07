@@ -18,8 +18,8 @@ export const MemberCard = (props) => {
           <h2>{props.name}</h2>
           <span> {props.post} </span>
           <div class="sm">
-            <a href={props.link} target="_blank" ><i class="fab fa-linkedin"></i></a>
-            <a href={props.git} target="_blank"><i class="fab fa-github"></i></a>
+            <a href={props.link} target="_blank" rel="noreferrer" ><i class="fab fa-linkedin"></i></a>
+            <a href={props.git} target="_blank" rel="noreferrer" ><i class="fab fa-github"></i></a>
           </div>
         </div>
       </div>
