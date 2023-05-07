@@ -19,9 +19,8 @@ jobs:
           node-version: 18
       - name: Install the dependencies and fix possible security issues
         run: |
-          npm --version
+          echo "Node version - $(node --version) . NPM version - $(npm --version)"
           npm install
-          npm audit fix
       - name: Deploy to the gh-pages branch
         run: |
           npm run deploy
