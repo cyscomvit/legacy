@@ -21,6 +21,10 @@ jobs:
         run: |
           echo "Node version - $(node --version) . NPM version - $(npm --version)"
           npm install
+      - name: Setup Git`
+        run: |
+          git config --global user.name github-actions
+          git config  --global user.email github-actions@github.com
       - name: Deploy to the gh-pages branch
         run: |
           npm run deploy
