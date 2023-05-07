@@ -17,8 +17,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-      - name: Install the dependencies
-        run: | 
+      - name: Install the dependencies and fix possible security issues
+        run: |
           npm --version
           npm install
-          npm deploy
+          npm audit fix
+      - name: Deploy to the gh-pages branch
+        run: |
+          npm run deploy
