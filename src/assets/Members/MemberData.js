@@ -337,7 +337,7 @@ export const data = [
     },
     {
         "name":"Vishal N",
-        "post":"Development Team Member",
+        "post":"Dev Team Member",
         "github":"https://github.com/vishalnandagopal",
         "linkedin":"https://www.linkedin.com/in/vishal-nandagopal/",
         "pic":"https://drive.google.com/uc?export=view&id=1DZb_62jvUQFmcitzZQbldg-AOHjSgmcL"
